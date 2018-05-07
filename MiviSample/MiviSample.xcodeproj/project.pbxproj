@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1822BB2320A0141900E4445A /* SubscriptionInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822BB2220A0141900E4445A /* SubscriptionInfoVC.swift */; };
+		183952F1209F4DD700E3CDE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183952F0209F4DD700E3CDE7 /* AppDelegate.swift */; };
+		183952F3209F4DD700E3CDE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183952F2209F4DD700E3CDE7 /* ViewController.swift */; };
+		183952F6209F4DD700E3CDE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183952F4209F4DD700E3CDE7 /* Main.storyboard */; };
+		183952F8209F4DD700E3CDE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183952F7209F4DD700E3CDE7 /* Assets.xcassets */; };
+		183952FB209F4DD700E3CDE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183952F9209F4DD700E3CDE7 /* LaunchScreen.storyboard */; };
+		E1A5A8EFA3EB0D8164CA42C7 /* Pods_MiviSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8995FD973D47C62A21377C8E /* Pods_MiviSample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1822BB2220A0141900E4445A /* SubscriptionInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionInfoVC.swift; sourceTree = "<group>"; };
+		183952ED209F4DD700E3CDE7 /* MiviSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiviSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183952F0209F4DD700E3CDE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		183952F2209F4DD700E3CDE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		183952F5209F4DD700E3CDE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		183952F7209F4DD700E3CDE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		183952FA209F4DD700E3CDE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		183952FC209F4DD700E3CDE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88D83AB321EAC9BFCF9C1DC1 /* Pods-MiviSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiviSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiviSample/Pods-MiviSample.release.xcconfig"; sourceTree = "<group>"; };
+		8995FD973D47C62A21377C8E /* Pods_MiviSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiviSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		945C4D713935B9E9D4B8E292 /* Pods-MiviSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiviSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiviSample/Pods-MiviSample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183952EA209F4DD700E3CDE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A5A8EFA3EB0D8164CA42C7 /* Pods_MiviSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183952E4209F4DD700E3CDE7 = {
+			isa = PBXGroup;
+			children = (
+				183952EF209F4DD700E3CDE7 /* MiviSample */,
+				183952EE209F4DD700E3CDE7 /* Products */,
+				AA0BB1406BEDB65583C08710 /* Pods */,
+				2781CE7071C3D07AC01FF2E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		183952EE209F4DD700E3CDE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183952ED209F4DD700E3CDE7 /* MiviSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183952EF209F4DD700E3CDE7 /* MiviSample */ = {
+			isa = PBXGroup;
+			children = (
+				183952F0209F4DD700E3CDE7 /* AppDelegate.swift */,
+				183952F2209F4DD700E3CDE7 /* ViewController.swift */,
+				1822BB2220A0141900E4445A /* SubscriptionInfoVC.swift */,
+				183952F4209F4DD700E3CDE7 /* Main.storyboard */,
+				183952F7209F4DD700E3CDE7 /* Assets.xcassets */,
+				183952F9209F4DD700E3CDE7 /* LaunchScreen.storyboard */,
+				183952FC209F4DD700E3CDE7 /* Info.plist */,
+			);
+			path = MiviSample;
+			sourceTree = "<group>";
+		};
+		2781CE7071C3D07AC01FF2E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8995FD973D47C62A21377C8E /* Pods_MiviSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA0BB1406BEDB65583C08710 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				945C4D713935B9E9D4B8E292 /* Pods-MiviSample.debug.xcconfig */,
+				88D83AB321EAC9BFCF9C1DC1 /* Pods-MiviSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183952EC209F4DD700E3CDE7 /* MiviSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183952FF209F4DD700E3CDE7 /* Build configuration list for PBXNativeTarget "MiviSample" */;
+			buildPhases = (
+				6AB0F4F29BDB3AC167E61F5D /* [CP] Check Pods Manifest.lock */,
+				183952E9209F4DD700E3CDE7 /* Sources */,
+				183952EA209F4DD700E3CDE7 /* Frameworks */,
+				183952EB209F4DD700E3CDE7 /* Resources */,
+				FF26C1D1CCB573A2D998FEF0 /* [CP] Embed Pods Frameworks */,
+				888FD6CE740F26261C69151E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiviSample;
+			productName = MiviSample;
+			productReference = 183952ED209F4DD700E3CDE7 /* MiviSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183952E5209F4DD700E3CDE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Santharao;
+				TargetAttributes = {
+					183952EC209F4DD700E3CDE7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 183952E8209F4DD700E3CDE7 /* Build configuration list for PBXProject "MiviSample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 183952E4209F4DD700E3CDE7;
+			productRefGroup = 183952EE209F4DD700E3CDE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183952EC209F4DD700E3CDE7 /* MiviSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183952EB209F4DD700E3CDE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183952FB209F4DD700E3CDE7 /* LaunchScreen.storyboard in Resources */,
+				183952F8209F4DD700E3CDE7 /* Assets.xcassets in Resources */,
+				183952F6209F4DD700E3CDE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AB0F4F29BDB3AC167E61F5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiviSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		888FD6CE740F26261C69151E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiviSample/Pods-MiviSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF26C1D1CCB573A2D998FEF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MiviSample/Pods-MiviSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiviSample/Pods-MiviSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183952E9209F4DD700E3CDE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183952F3209F4DD700E3CDE7 /* ViewController.swift in Sources */,
+				183952F1209F4DD700E3CDE7 /* AppDelegate.swift in Sources */,
+				1822BB2320A0141900E4445A /* SubscriptionInfoVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		183952F4209F4DD700E3CDE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183952F5209F4DD700E3CDE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		183952F9209F4DD700E3CDE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183952FA209F4DD700E3CDE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183952FD209F4DD700E3CDE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		183952FE209F4DD700E3CDE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18395300209F4DD700E3CDE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945C4D713935B9E9D4B8E292 /* Pods-MiviSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WM829V49Z;
+				INFOPLIST_FILE = MiviSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Santharao.MiviSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18395301209F4DD700E3CDE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88D83AB321EAC9BFCF9C1DC1 /* Pods-MiviSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WM829V49Z;
+				INFOPLIST_FILE = MiviSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Santharao.MiviSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183952E8209F4DD700E3CDE7 /* Build configuration list for PBXProject "MiviSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183952FD209F4DD700E3CDE7 /* Debug */,
+				183952FE209F4DD700E3CDE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183952FF209F4DD700E3CDE7 /* Build configuration list for PBXNativeTarget "MiviSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18395300209F4DD700E3CDE7 /* Debug */,
+				18395301209F4DD700E3CDE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183952E5209F4DD700E3CDE7 /* Project object */;
+}
